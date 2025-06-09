@@ -2,12 +2,9 @@
   "name": "event-management-backend",
   "version": "1.0.0",
   "description": "Backend for event management system",
-  "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./api/auth.js"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.50.0",
